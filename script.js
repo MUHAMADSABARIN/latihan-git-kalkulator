@@ -15,3 +15,7 @@ function calculate() {
 function clearAll() {
   result.value = '';
 }
+
+function deleteLastCharacter() {
+  result.value = result.value.slice(0, -1);
+}
